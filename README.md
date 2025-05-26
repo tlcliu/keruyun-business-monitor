@@ -30,8 +30,10 @@ FIXED_FEISHU_WEBHOOK = "FEISHU_WEBHOOK"  # 请替换为真实的飞书机器人�
 ```
 ### 2.3 运行程序
 将修改后的代码保存为 report_robot_kry.py，然后在命令行中运行以下命令：
+```
 bash
 python report_robot_kry.py
+```
 ### 2.4 程序界面操作
 开始获取数据：点击该按钮，程序开始定时获取营业数据，并在窗口中显示实时报告。
 停止：点击该按钮，程序停止获取数据。
