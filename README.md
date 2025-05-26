@@ -20,12 +20,14 @@ pip install requests tkinter
 ### 2.2 配置参数
 在代码中，有一些固定参数需要根据实际客如云智享版账号信息进行修改：
 # 固定参数
+```
 FIXED_TOKEN = "TOKEN" # 请替换为客如云智享版API的Token
 FIXED_SHOP_ID = "00000000" # 请替换为真实的店铺ID
 FIXED_SHOP_NAME = "某某餐饮店" # 请替换为真实的店铺名称
 FIXED_APP_KEY = "APP_KEY"  # 请替换为客如云智享版API的App Key
 FIXED_APP_SECRET = "APP_SECRET"  # 请替换为客如云智享版API的App Secret
 FIXED_FEISHU_WEBHOOK = "FEISHU_WEBHOOK"  # 请替换为真实的飞书机器人地址
+```
 ###2.3 运行程序
 将修改后的代码保存为 report_robot_kry.py，然后在命令行中运行以下命令：
 bash
